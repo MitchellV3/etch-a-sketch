@@ -1,0 +1,21 @@
+body{
+    background-color: #2b2b2b;
+}
+
+div{
+    border: 3px pink solid;
+}
+
+.row-box{
+    border: 3px rgb(161, 13, 38) solid;
+    width: 100px;
+    height: 55px;
+}
+
+.row-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-evenly;
+
+}
