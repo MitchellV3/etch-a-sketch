@@ -6,7 +6,7 @@ body{
 }
 
 .box-container{
-    border: 3px pink solid;
+    border: 5px rgb(18, 18, 18) solid;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,14 +16,16 @@ body{
 }
 
 .row-box{
-    border: 1px rgb(13, 161, 30) solid;
+    border: 1px rgb(26, 26, 26) solid;
     width: 1000px;
     height: auto;
 }
 
+/*
 .row-box:hover{
     background-color: purple;
 }
+*/
 
 .row-container{
     display: flex;

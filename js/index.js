@@ -23,3 +23,12 @@ for (let i = 0; i < rowArray.length; i++) {
         currentRow.appendChild(rowBox);
     }
 }
+
+let box = document.querySelectorAll('.row-box');
+
+box.forEach(function(box){
+        box.addEventListener('mouseenter', (e) =>{
+            box.style.backgroundColor = "rgb(12, 12, 12)";
+        })
+})
+
