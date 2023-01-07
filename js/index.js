@@ -25,10 +25,18 @@ for (let i = 0; i < rowArray.length; i++) {
 }
 
 let box = document.querySelectorAll('.row-box');
+let reset = document.querySelector('.reset-btn');
+let size = document.querySelector('.size-btn');
 
 box.forEach(function(box){
         box.addEventListener('mouseenter', (e) =>{
             box.style.backgroundColor = "rgb(12, 12, 12)";
         })
+        reset.addEventListener('click', (e) => {
+            box.style.backgroundColor = "";
+        })
 })
+
+
+
 
