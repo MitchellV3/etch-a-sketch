@@ -41,16 +41,6 @@ for (let i = 0; i < box.length; i++) {
     })
 }
 
-/*
-box.forEach(function(box){
-        box.addEventListener('mouseenter', (e) =>{
-            box.style.backgroundColor = "rgb(12, 12, 12)";
-        })
-        reset.addEventListener('click', (e) => {
-            box.style.backgroundColor = "";
-        })
-})
-*/
 size.addEventListener('click', (e) => {
     const size = prompt("Enter the desired number of boxes (maximum 100)");
       
